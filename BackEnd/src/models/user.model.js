@@ -16,8 +16,7 @@ const userSchema = new mongoose.Schema({
   admin: { type: Boolean, default: false, required: true }
 
 },
-  { timestamps: true },
-  { versionKet: false }
+  { timestamps: true }
 
 )
 
